@@ -2,7 +2,11 @@
 .babelrc
 .eslintrc.json
 .prettierrc.json
+
 next-env.d.ts
 next.config.js
+tsconfig.json
+
 package-lock.json
 package.json
+README.md
