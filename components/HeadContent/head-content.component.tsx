@@ -4,7 +4,7 @@ import Shukhratbek from '@imgs/shukhratbek.jpg'
 export const HeadContent = () => {
   return (
     <Head>
-        <title>Shuhratbek`s Blog</title>
+      <title>Shuhratbek`s Blog</title>
       <meta name="author" content="Shukhratbek Kobulov" />
       <meta property="og:site_name" content="Shukhratbek`s Blog" />
 
