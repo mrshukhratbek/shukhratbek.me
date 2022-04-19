@@ -14,7 +14,7 @@ export const HeadContent = () => {
       />
       <meta name="og:image" content={`${Shukhratbek.src}`}></meta>
 
-      <link rel="icon" href="/favicon.ico" />
+      <meta name="robots" content="noindex,nofollow"></meta>
     </Head>
   )
 }
