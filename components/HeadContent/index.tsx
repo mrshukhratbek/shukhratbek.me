@@ -1,1 +1,1 @@
-export * from "./head-content.component"
+export * from './head-content.component'

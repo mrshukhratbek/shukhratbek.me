@@ -1,1 +1,1 @@
-export { HeadContent } from "./HeadContent"
+export { HeadContent } from './HeadContent'
