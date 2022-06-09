@@ -1,1 +1,2 @@
-export { HeadContent } from './HeadContent'
+export * from './head-content';
+export * from './layouts'
