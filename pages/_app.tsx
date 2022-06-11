@@ -1,12 +1,15 @@
 import type { AppProps } from 'next/app'
 import "../styles/fonts.css"
 import { GlobalStyles } from '@styles'
+import { MainLayout } from '@components'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <GlobalStyles />
-      <Component {...pageProps} />
+      <MainLayout>
+        <Component {...pageProps} />
+      </MainLayout>
     </>
   )
 }

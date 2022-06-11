@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 // import SourceSansProWoff2 from "@fonts/source-sans-pro-v19-latin-regular.woff2"
 // import SourceSansProWoff from "@fonts/source-sans-pro-v19-latin-regular.woff"
@@ -221,5 +221,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-`
 
+#__next {
+  height: 100%;
+}
+`
