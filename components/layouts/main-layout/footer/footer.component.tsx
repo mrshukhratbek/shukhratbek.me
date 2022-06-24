@@ -14,12 +14,20 @@ export const Footer = () => {
           <Col>
             <ul>
               <li>
-                <a href="https://twitter.com/mrshukhratbek" target="_blank">
+                <a
+                  href="https://twitter.com/mrshukhratbek"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="https://github.com/mrshukhratbek" target="_blank">
+                <a
+                  href="https://github.com/mrshukhratbek"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub
                 </a>
               </li>
