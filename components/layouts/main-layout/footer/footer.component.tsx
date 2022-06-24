@@ -1,6 +1,5 @@
 import { Col, Layout, Row } from 'antd'
 import { Container } from '@components/layouts/container'
-import Link from 'next/link'
 
 const { Footer: AntdFooter } = Layout
 
