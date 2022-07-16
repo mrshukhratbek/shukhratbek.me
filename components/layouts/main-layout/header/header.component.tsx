@@ -1,31 +1,33 @@
 import Link from 'next/link'
-import { Layout, Row } from 'antd'
+import { Layout, Row, Space } from 'antd'
 import { Container } from '@components/layouts'
 
 const { Header: AntdHeader } = Layout
 
 export const Header = () => {
   return (
-    <AntdHeader>
+    <AntdHeader
+      style={{
+        backgroundColor: '#fff',
+        borderBottom: '1px solid #ddd',
+      }}
+    >
       <Container>
-        <Row>
+        <Row justify="space-between">
           <Link href="/">
             <a>Shukhratbek</a>
           </Link>
 
           <nav>
-            <ul>
-              <li>
-                <Link href="/blog">
-                  <a>Blog</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <a>About</a>
-                </Link>
-              </li>
-            </ul>
+            <Space size="large">
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </Space>
           </nav>
         </Row>
       </Container>
