@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import { HeadContent } from '@components'
 
-const Home: NextPage = () => {
+const Blog: NextPage = () => {
   return (
     <div>
-      <HeadContent title="Home" />
-      Home page
+      <HeadContent title="Blog" />
+      Blog page
     </div>
   )
 }
 
-export default Home
+export default Blog

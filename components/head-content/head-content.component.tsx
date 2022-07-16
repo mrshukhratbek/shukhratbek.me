@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Shukhratbek from '@imgs/shukhratbek.jpg'
 
-export const HeadContent = () => {
+export const HeadContent = ({ title = '' }) => {
   return (
     <Head>
-      <title>Shuhratbek`s Blog</title>
+      <title>Shuhratbek`s Blog {title && `- ${title}`}</title>
       <meta name="author" content="Shukhratbek Kobulov" />
       <meta property="og:site_name" content="Shukhratbek`s Blog" />
 
