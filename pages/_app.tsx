@@ -1,5 +1,5 @@
-import '../styles/fonts.css'
 import 'antd/dist/antd.css'
+import '../styles/fonts.css'
 
 import type { AppProps } from 'next/app'
 

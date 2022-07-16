@@ -1,11 +1,14 @@
 import type { NextPage } from 'next'
 import { HeadContent } from '@components'
+import { Typography } from 'antd'
+
+const { Title } = Typography
 
 const Home: NextPage = () => {
   return (
     <div>
       <HeadContent title="Home" />
-      Home page
+      <Title>Home</Title>
     </div>
   )
 }
