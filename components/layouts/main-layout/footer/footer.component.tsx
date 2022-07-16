@@ -9,6 +9,8 @@ export const Footer = () => {
       style={{
         backgroundColor: '#fff',
         borderTop: '1px solid #ddd',
+        paddingLeft: '0',
+        paddingRight: '0',
       }}
     >
       <Container>

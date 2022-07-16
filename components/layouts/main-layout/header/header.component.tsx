@@ -10,6 +10,8 @@ export const Header = () => {
       style={{
         backgroundColor: '#fff',
         borderBottom: '1px solid #ddd',
+        paddingLeft: '0',
+        paddingRight: '0',
       }}
     >
       <Container>
