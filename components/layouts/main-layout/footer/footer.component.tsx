@@ -22,7 +22,13 @@ export const Footer = () => {
               >
                 Twitter
               </a>
-
+              <a
+                href="https://www.linkedin.com/in/mrshukhratbek/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
               <a
                 href="https://github.com/mrshukhratbek"
                 target="_blank"
