@@ -6,7 +6,10 @@ const { Footer: AntdFooter } = Layout
 export const Footer = () => {
   return (
     <AntdFooter
-      style={{ backgroundColor: '#fff', borderTop: '1px solid #ddd' }}
+      style={{
+        backgroundColor: '#fff',
+        borderTop: '1px solid #ddd',
+      }}
     >
       <Container>
         <Row justify="space-between">
